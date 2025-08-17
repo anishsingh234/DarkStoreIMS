@@ -97,8 +97,8 @@ export default function Page() {
         <div className="text-center mt-2">
           <Text size="2" className="text-gray-500">
             Don’t have an account?{" "}
-            <a href="/signup" className="text-blue-600 hover:underline">
-              Sign up
+            <a href="mailto:@admin" className="text-blue-600 hover:underline">
+              Connect to admin 
             </a>
           </Text>
         </div>

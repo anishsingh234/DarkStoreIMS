@@ -10,7 +10,7 @@ export const ThemeContext = createContext<{
   setIsDark:null
 });
 export default function ThemeProvider({ children }: { children: ReactNode }) {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   return (
     <ThemeContext.Provider
       value={{

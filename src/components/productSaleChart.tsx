@@ -9,10 +9,7 @@ import {
   ResponsiveContainer
 } from "recharts";
 
-const data = [
-  { name: "2025-08-11", quantity: 12 },
-  { name: "2025-08-12", quantity: 18 },
-];
+
 
 export default function ProductSaleChart({data}) {
   return (
